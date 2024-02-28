@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey</title>
+    <link rel="stylesheet" href="survey.css">
+</head>
+<body>
+    <h1>SURVEY FORM</h1>
+    <!-- ======create form========= -->
+    <form id="form">
+<br>
+        <div class="form-control">
+            <label for="name" id="id">
+                Name:
+            </label>
+
+            <input type="text" id="name" placeholder="Enter your name" required>
+        </div>
+
+        <div class="form-control">
+            <label for="email" id="id">
+                Email:
+            </label>
+
+            <input type="email" id="email" placeholder="Enter your email"required>
+        </div>
+
+        <div class="form-control">
+            <label for="age" id="id">
+                Age:
+            </label>
+
+            <input type="text" id="age" placeholder="Enter your age"required>
+        </div>
+
+        <div class="form-control">
+            <label for="Address" id="id">
+                Address:
+            </label>
+
+            <input type="text" id="Address" placeholder="Enter your Address"required>
+        </div>
+
+        <div class="form-control">
+            <label for="role" id="id">
+                Which option best describes you?
+            </label>
+            <select name="role" id="role">
+                <option value="student">Student</option>
+                <option value="intern">Intern</option>
+                <option value="professional">Professional</option>
+                <option value="other">Other</option>
+                
+            </select>
+        </div>
+        
+        <div class="form-control">
+            <label id="id">
+                Where do you typically code or develop software projects?
+            </label>
+ <br>
+            <!-- Input Type Radio Button -->
+            <label for="recommend-1">
+                <input type="radio" id="recommend"
+                       name="recommend">IDEs such as Visual Studio Code, IntelliJ IDEA, or Eclipse
+                  </input>
+            </label>
+            <label for="recommend-2">
+                <input type="radio" id="recommend"
+                       name="recommend">Text Editors like Sublime Text, Atom, or Vim
+                  </input>
+            </label>
+            <label for="recommend-3">
+                <input type="radio" id="recommend"
+                       name="recommend">Online platforms such as GitHub Codespaces, AWS Cloud9, or CodePen
+                  </input>
+            </label>
+            <label for="recommend-4">
+                <input type="radio" id="recommend"
+                       name="recommend">Command-Line Interfaces (CLIs) such as Pico and NANO
+                  </input>
+            </label>
+            <label for="recommend-5">
+                <input type="radio" id="recommend"
+                       name="recommend">Other Environments
+                  </input>
+            </label>
+        </div>
+
+        <div class="form-control">
+            
+                <label id="id">Programming languages you are proficient in:
+                    <small>(Check all that apply):</small>
+                </label>
+                <br>
+                <!-- Input Type Checkbox -->
+                    <label for="inp-1">
+                        <input type="checkbox" name="inp" id="s">Python
+                        </input>
+                    </label>
+                    <label for="inp-2">
+                        <input type="checkbox" name="inp" id="s">C++
+                        </input>
+                    </label>
+                    <label for="inp-3">
+                        <input type="checkbox" name="inp" id="s">C#
+                        </input>
+                    </label>
+                    <label for="inp-4">
+                        <input type="checkbox" name="inp" id="s">Java
+                        </input>
+                    </label>
+                    <label for="inp-5">
+                        <input type="checkbox" name="inp" id="s">Ruby
+                        </input>
+                    </label>
+                    <label for="inp-6">
+                        <input type="checkbox" name="inp" id="s">JavaScript
+                        </input>
+                    </label>
+                    <label for="inp-7">
+                        <input type="checkbox" name="inp" id="s">Other
+                        </input>
+                    </label>  
+                    <br>
+                    
+                    <label id="id">Types of software you have experience with:
+                        <small>(Check all that apply):</small>
+                    </label>
+                    <br>
+                    <!-- Input Type Checkbox -->
+                        <label for="inp-1">
+                            <input type="checkbox" name="inp" id="s">Web Development
+
+                            </input>
+                        </label>
+                        <label for="inp-2">
+                            <input type="checkbox" name="inp" id="s">Mobile App Development
+                            </input>
+                        </label>
+                        <label for="inp-3">
+                            <input type="checkbox" name="inp" id="s">Desktop Application Development
+                            </input>
+                        </label>
+                        <label for="inp-4">
+                            <input type="checkbox" name="inp" id="s">Game Development
+                            </input>
+                        </label>
+                        <label for="inp-5">
+                            <input type="checkbox" name="inp" id="s">
+                            DevOps Tools
+                            </input>
+                        </label>
+                        <label for="inp-6">
+                            <input type="checkbox" name="inp" id="s">Machine Learning/AI Tools
+                            </input>
+                        </label>
+                        <label for="inp-7">
+                            <input type="checkbox" name="inp" id="s">Other
+                            </input>
+                        </label>  
+
+        </div>
+        <div class="form-control">
+            <label for="comment" id="id">
+                Feedback:
+            </label>
+                <textarea name="FEEDBACK" placeholder="Give your Feedback" rows="6"  required></textarea> 
+        </div>    
+        <!-- Multi-line Text Input Control -->
+        <button type="submit" value="submit" id="id">Submit</button>
+    </form>    
+</body>
+</html>

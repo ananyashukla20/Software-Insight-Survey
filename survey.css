@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-image: url(picture.jpg);
+}
+
+h1{
+    font-family: serif;
+    color: rgb(88, 8, 158);
+    border-bottom:5px dotted rgb(201, 219, 87) ;
+    text-align: center;
+    font-size: 55px;
+    text-shadow: 2px 2px white;
+    
+    
+}
+
+.form{
+    margin: 50px auto;
+    padding: 30px 20px;
+    border: 2px solid black;
+
+}
+
+.form-control{
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 468px;
+    font-size: 25px;
+    
+       
+}
+
+.form-control input{
+    border: 2px solid #000000;
+    border-radius: 5px;
+    font-family: sans-serif;
+    padding: 10px;
+    display: block;
+    width: 50%;
+    margin: 5px;
+    color: rgb(162, 11, 11);
+    font-size: 1rem;
+    background : transparent;
+}
+
+.form-control input:hover{
+    border: 1px solid white;
+}
+
+#label-role{
+    display: block;
+    border-radius: 5px;
+    font-family: sans-serif;
+    width: 60%;    
+}
+
+#role{
+    width: 52%;
+    padding: 10px;
+    border: 2px solid #000000;
+    margin: 5px;
+    border-radius: 5px;
+    background : transparent;
+}
+
+.form-control input[type="radio"],
+.form-control input[type="checkbox"] 
+{
+    display:inline-block;
+    width: auto; 
+    
+    cursor: pointer; 
+}
+.form-control label{
+    display: block;
+    padding-bottom: 10px;
+    
+    
+}
+.form-control textarea{
+    border-radius: 5px;
+    width: 50%;
+    border: 2px solid black;
+    padding: 5px;
+    background :transparent;
+
+}
+
+.form-control textarea::placeholder{
+    color: white;
+}
+
+#id{
+    font-weight: 800;
+    font-size: 2rem;
+    text-shadow: 2px 2px rgba(255, 255, 255, 0.821);
+}
+
+
+.form-control textarea{
+    font-size: 1.5rem;
+}
+
+.form-control textarea:hover{
+    border:2px solid white;
+    
+}    
+button{
+    background-color: rgb(96, 107, 195);
+    border: 2px solid black;
+    border-radius: 5px;
+    font-family: sans-serif;
+    font-size: 15px;
+    padding: 5px;   
+    margin: 468px;
+    margin-top: 1px;
+}
+    
+    
+
+
+
+
+
+
+
+
+
